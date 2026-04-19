@@ -42,7 +42,7 @@ Each poll is assigned a unique 8-character ID derived from a UUID at creation ti
 2. The app loads the voter's **registered reference image** from Firebase Storage.
 3. The voter captures a **live selfie** via the device camera.
 4. Both images are base64-encoded and passed to the Python `scripts.py` module via Chaquopy.
-5. `face_recognition.compare_faces()` runs a comparison with a tolerance of `0.5`.
+5. Facial recognition runs a comparison with a tolerance of `0.05`.
 6. If faces match, the voter is granted access to the voting screen; otherwise, access is denied.
 
 ### One-Vote Enforcement
