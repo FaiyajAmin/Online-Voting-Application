@@ -1,6 +1,6 @@
 # 🗳️ Online Voting Application
 
-An Android-based online voting system with **face recognition authentication**, built as a System Development Project. The app enables admins to create and manage polls while ensuring that only verified, registered voters can cast ballots — authenticated through real-time facial recognition.
+An Android-based online voting system with **face recognition authentication**, built as a System Development Project. The app enables admins to create and manage polls while ensuring that only verified, registered voters can cast ballots that are authenticated through real-time facial recognition.
 
 ## 📋 Table of Contents
 
